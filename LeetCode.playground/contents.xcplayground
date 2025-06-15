@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playground target-platform="ios" swift-version="6" version="7.0" requires-full-environment="false">
+    <pages>
+        <page name="20 - Valid Parentheses"/>
+        <page name="12 - coming Soon"/>
+    </pages>
+</playground>
