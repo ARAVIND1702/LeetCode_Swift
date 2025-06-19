@@ -3,7 +3,8 @@ class Solution {
         var queue : Array<Character> = []
         let closingParenthesis: Array<Character> = [")","]","}"]
         for char in s{
-            guard !closingParenthesis.contains(char) else{         if queue.isEmpty {
+            guard !closingParenthesis.contains(char) else{         
+                if queue.isEmpty {
                 return false
             }
                 switch char {
