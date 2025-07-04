@@ -1,9 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<playground swift-version="6" target-platform="ios" version="7.0" requires-full-environment="false">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='7.0' target-platform='ios' swift-version='6'>
     <pages>
-        <page name="20 - Valid Parentheses"/>
-        <page name="Count the characters"/>
-        <page name="121 -  Best Time to Buy and Sell Stock"/>
-        <page name="Linked List"/>
+        <page name='20 - Valid Parentheses'/>
+        <page name='Count the characters'/>
+        <page name='121 -  Best Time to Buy and Sell Stock'/>
+        <page name='Linked List'/>
+        <page name='Find last digit in a number'/>
+        <page name='Count Digits'/>
+        <page name='1. Two Sum'/>
+        <page name='303. Range Sum Query - Immutable'/>
+        <page name='RoughWork'/>
+        <page name='155. Min Stack'/>
+        <page name='739. Daily Temperatures'/>
     </pages>
 </playground>

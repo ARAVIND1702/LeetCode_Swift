@@ -76,6 +76,6 @@ class Solution {
 
 var solution = Solution()
 
-print(solution.isValid("]"))
+//print(solution.isValid("]"))
 
 
