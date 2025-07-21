@@ -74,8 +74,8 @@ class Solution {
     }
 }
 
-var solution = Solution()
+var solution = Solution()tr
 
-print(solution.isValid("]"))
+print(solution.isValid_0ms("]"))
 
 

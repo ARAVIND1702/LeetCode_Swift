@@ -14,6 +14,8 @@ class BinaryTree {
     }
 }
 
+
+// DFS
 func inOrderTraversal(_ node : BinaryTree?) {
     guard let root = node else {
         return
@@ -41,6 +43,31 @@ func postOrderTraversal(_ node : BinaryTree?) {
     print(root.data, terminator: " ")
 }
 
+// BFS
+
+func levelOrderTraversal(_ root : BinaryTree?) {
+    guard let node = root else {
+        return
+    }
+    
+    var queue : [BinaryTree] = [node]
+    
+    while !queue.isEmpty {
+        let visitedNode = queue.removeFirst()
+        print(visitedNode.data,terminator: " ")
+        
+        if let leftNode = visitedNode.left {
+            queue.append(leftNode)
+        }
+        
+        if let rightNode = visitedNode.right {
+            queue.append(rightNode)
+        }
+    }
+}
+
+
+
 
 let root = BinaryTree(data: 1)
 root.left = BinaryTree(data: 2)
@@ -61,4 +88,7 @@ preOrderTraversal(root)
 print()
 print("PostOrderTraversal")
 postOrderTraversal(root)
+print()
+print("BFS Level Order Traversal")
+levelOrderTraversal(root)
 

@@ -1,5 +1,7 @@
+func printTimesTables(for number: Int) {
+for i in 1...12 {
+print("\(i) x \(number) is \(i * number)")
+}
+}
 
-var a = 9
-var b = 10
-var array : Array(Int) = []
-print(a-b)
+printTimesTables(for: 2)
